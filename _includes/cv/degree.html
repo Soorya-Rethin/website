@@ -9,9 +9,14 @@
 {% endif %}
 
 {% if degree.advisor %}
-	<div class="cv-description">
-		Advisor: {% include person.html person=degree.advisor %}{% endif %}{% if degree.co-advisor %}, Co-advisor: {% include person.html person=degree.co-advisor %}
-	</div>
+  <div class="cv-description">
+    <span>Advisor: </span>
+    {% include person.html person=degree.advisor %}
+    {% if degree.co-advisor %}
+      <span>, Co-advisor: </span>
+      {% include person.html person=degree.co-advisor %}
+    {% endif %}
+  </div>
 {% endif %}
 
 {% if degree.committee %}

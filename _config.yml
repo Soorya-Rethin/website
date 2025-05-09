@@ -1,6 +1,6 @@
-title: Fred Hohman
-tagline: Research Scientist at Apple
-url: http://fredhohman.com
+title: Soorya Rethinasamy
+tagline: Ph.D. Researcher at Cornell
+url: http://sooryarethin.com
 baseurl: ""
 # gems: [jekyll-paginate]
 # paginate: 5
@@ -14,9 +14,9 @@ sass:
   style: compressed
 
 author:
-  name: Fred Hohman
-  url: http://fredhohman.com
-  email: fred.hohman@gmail.com
+  name: Soorya Rethinasamy
+  url: http://sooryarethin.com
+  email: sooryarethin@gmail.com
 
 markdown: kramdown
 highlighter: rouge

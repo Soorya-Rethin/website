@@ -1,42 +1,30 @@
-- degree: "Ph.D. in Computational Science & Engineering"
-  institution: Georgia Institute of Technology
-  location: "Atlanta, GA"
-  advisor: Duen Horng (Polo) Chau
-  co-advisor: Alex Endert
-  years: "Aug. 2015 —"
-  years-extra: "Dec. 2020"
-  thesis: "Interactive Scalable Interfaces for Machine Learning Interpretability"
-  thesis-video: https://youtu.be/TNH8RqyNfmo
-  thesis-link: ../dissertation/
-  thesis-pdf: ../papers/fred-hohman-thesis.pdf
-  committee:
-    - Duen Horng (Polo) Chau
-    - Alex Endert
-    - Chao Zhang
-    - Nathan Hodas
-    - Scott Davidoff
-    - Steven Drucker
-  institution-url: https://www.gatech.edu/
-  awards:
-    - ACM SIGCHI Outstanding Dissertation Award
-    - Georgia Tech College of Computing Dissertation Award
-
-- degree: "M.S. in Computational Science & Engineering"
-  institution: Georgia Institute of Technology
-  location: "Atlanta, GA"
-  years: May 2018
-  institution-url: https://www.gatech.edu/
-  description:
-    - "GPA: 4.00/4.00"
-
-- degree: "B.S. in Mathematics, B.S. in Physics"
-  years: "Aug. 2011 —"
-  years-extra: "May 2015"
-  institution: University of Georgia
-  location: "Athens, GA"
-  thesis: "3D Printing the Trefoil Knot and its Pages"
-  thesis-link: ../projects/3d-printing-the-trefoil-knot-and-its-pages/
-  thesis-pdf: ../papers/fred-hohman-undergrad-thesis.pdf
+- degree: "Ph.D. in Applied & Engineering Physics"
+  institution: Cornell Univesity
+  location: "Ithaca, NY"
+  advisor: Mark M. Wilde
+  years: "Jan. 2020 — "
+  institution-url: https://www.cornell.edu
   description: 
-    - "Overall GPA: 3.84/4.00, Magna Cum Laude, Area of Emphasis in Applied Mathematics"
-  institution-url: https://www.uga.edu/
+    - "Transferred from Louisiana State University in Jun. 2021. Overall GPA: 4.32/4.00"
+
+- degree: "M.S. in Applied and Engineering Physics"
+  institution: Cornell University
+  location: "Ithaca, NY"
+  years: "Jun. 2021 - May 2024"
+  institution-url: https://www.cornell.edu
+
+- degree: "M. Sc. (Hons.) in Physics"
+  years: "Aug. 2015 - May 2020"
+  institution: Birla Institute of Technology and Science, Pilani
+  location: "Pilani, India"
+  description: 
+    - "Overall GPA: 9.52/10.0, Best Outgoing Student in Physics Award"
+  institution-url: https://www.bits-pilani.ac.in
+
+- degree: "B. E. (Hons.) in Computer Science"
+  years: "Aug. 2015 - May 2020"
+  institution: Birla Institute of Technology and Science, Pilani
+  location: "Pilani, India"
+  description: 
+    - "Overall GPA: 9.52/10.0, Best Outgoing Student Award"
+  institution-url: https://www.bits-pilani.ac.in

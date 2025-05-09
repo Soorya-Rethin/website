@@ -6,9 +6,9 @@ jsarr:
 - js/scripts.js
 ---
 
-<h1 id="cv-title"><a href="{{ site.url }}">Fred Hohman</a></h1>
+<h1 id="cv-title"><a href="{{ site.url }}">Soorya Rethinasamy</a></h1>
 
-<p id="cv-subtitle"><i>Research Scientist (<span class="cv-vis">HCI</span> + <span class="cv-ai">ML</span>)</i></p>
+<p id="cv-subtitle"><i>Physics Ph.D. at Cornell University </i></p>
 
 <!-- <div id="cv-toc">
 <ul class="cv-description">
@@ -30,13 +30,7 @@ jsarr:
 </div> -->
 
 <div>
-I design and develop <b><span class="cv-vis">interactive interfaces</span></b> to help people <b><span class="cv-ai">understand machine learning</span></b> models and data-driven systems. Besides building tools, I also create data visualizations and write interactive articles to simply communicate complex ideas.
-</div>
-
-<div class="cv-spacer"></div>
-
-<div>
-I have collaborated with researchers, designers, developers, and artists while working at Apple, Microsoft Research, NASA Jet Propulsion Lab, and Pacific Northwest National Lab.
+I design and study quantum algorithms. I am pursuing my Ph.D. from Cornell University, working with <a href="https://www.markwilde.com">Dr. Mark M. Wilde</a>. I have worked on several broad areas, including symmetries, distinguishability measures, variational algorithms, among others.
 </div>
 
 <div class="cv-spacer"></div>
@@ -68,6 +62,8 @@ I have collaborated with researchers, designers, developers, and artists while w
 {% endfor %}
 {:/}
 
+<!--
+
 ## Industry Research Experience
 
 {% for experience in site.data.experiences %}
@@ -90,7 +86,11 @@ I have collaborated with researchers, designers, developers, and artists while w
 {% include cv/award.html award=award %}
 {% endfor %}
 
+-->
+
 ## Publications
+
+{% comment %}
 
 ### Selected: Latest & Greatest
 
@@ -101,9 +101,13 @@ I have collaborated with researchers, designers, developers, and artists while w
 {% include cv/publication.html pub=pub %}
 {% endfor %}
 
+{% endcomment %}
+
 <!-- ### All Publications -->
 
 {% assign selectedBoolForBibtex = false %}
+
+<!--
 
 ### Tech Report
 
@@ -111,6 +115,8 @@ I have collaborated with researchers, designers, developers, and artists while w
 {% for pub in tech-report %}
 {% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
 {% endfor %}
+
+-->
 
 ### Journal
 
@@ -132,6 +138,8 @@ I have collaborated with researchers, designers, developers, and artists while w
 {% for pub in preprint %}
 {% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
 {% endfor %}
+
+<!--
 
 ### Workshop
 
@@ -202,11 +210,11 @@ I have collaborated with researchers, designers, developers, and artists while w
 {% endunless %}
 {% endfor %}
 
-<!-- ## Technology Skills
+## Technology Skills
 
 {% for skill in site.data.skills %}
 {% include cv/skill.html skill=skill %}
-{% endfor %} -->
+{% endfor %} 
 
 ## Service
 

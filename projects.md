@@ -8,10 +8,10 @@ Things I do, including research, academic course projects, and miscellaneous int
 
 ## PhD Dissertation
 
-My dissertation contributed interactive interfaces to enable machine learning interpretability at scale and for everyone.
+My dissertation was on various quantum algorithms for symmetry testing, distinguishability estimation, and energy estimation. In addition, I put forth several results on the computational complexity of the estimation problems.
 
 <div class="cover-wrapper cover-wrapper-1-col l-text">
-	{% include dissertation/document.html details=false location=home %}
+	{% include dissertation/document.html details=true location=home %}
 </div>
 
 <div class="cover-wrapper cover-wrapper-3-col l-page">
@@ -38,6 +38,8 @@ Research publications for fans of human-computer interaction, data visualization
 </div>
 
 <div class="project-spacer"></div>
+
+{% comment %}
 
 ## Interactive Articles
 
@@ -108,15 +110,15 @@ A born-digital, experimental magazine dedicated to showcasing the expository pow
 
 <div class="project-spacer-small"></div>
 
-## Undergraduate Thesis
+{% endcomment %}
 
-[3D Printing the Trefoil Knot and its Pages][trefoil] <small style="color: #c0c0c0">2015</small>
+## Masters Thesis
+
+[Open Quantum Systems and Quantum Error Correction][openquantum] <small style="color: #c0c0c0">2020</small>
 
 <div class="project-spacer-small"></div>
 
-## REU
-
-[Math & Computational Science REU][reu] <small style="color: #c0c0c0">2014</small>
+<!--
 
 ## Course Projects
 
@@ -146,6 +148,8 @@ A born-digital, experimental magazine dedicated to showcasing the expository pow
 <li><a href="{{ site.url }}/projects/road-bike-restoration">Road Bike Restoration</a> <small style="color: #c0c0c0">2012</small></li>
 </ul>
 
+-->
+
 [trefoil]: {{ site.url }}/projects/3d-printing-the-trefoil-knot-and-its-pages "3D Printing the Trefoil Knot and its Pages"
 [reu]: {{ site.url }}/projects/mathematics-&-computational-science-reu "Mathematics & Computational Science REU"
-
+[openquantum]: {{ site.url }}/projects/open-quantum-systems "Open Quantum Systems and Quantum Error Correction"

@@ -1,5 +1,5 @@
 - key: defense
-  url: https://www.youtube.com/embed/TNH8RqyNfmo?enablejsapi=1
+  url: https://www.youtube.com/embed/-Ey3Bsfxaok?si=1bRkTW33S8TofD-w
   parts:
     - part: Introduction and Logistics
       timestamp: "0:00"
@@ -41,47 +41,3 @@
       start: 3501
       end: 6349
       thumbnail: "../images/dissertation/thumbnails/defense/8.jpg"
-
-- key: award
-  url: https://www.youtube.com/embed/hOkmzExNKYk?enablejsapi=1
-  parts:
-    - part: Introduction
-      timestamp: "0:00"
-      start: 0
-      end: 24
-      thumbnail: "../images/dissertation/thumbnails/award/1.jpg"
-    - part: Agenda
-      timestamp: "0:24"
-      start: 24
-      end: 76
-      thumbnail: "../images/dissertation/thumbnails/award/2.jpg"
-    - part: "Part I: Thesis Motivation and Overview"
-      timestamp: "1:16"
-      start: 76
-      end: 305
-      thumbnail: "../images/dissertation/thumbnails/award/3.jpg"
-    - part: "Dissertation Summary"
-      timestamp: "5:05"
-      start: 305
-      end: 604
-      thumbnail: "../images/dissertation/thumbnails/award/4.jpg"
-    - part: "Part II: Research Reflections"
-      timestamp: "10:04"
-      start: 604
-      end: 835
-      thumbnail: "../images/dissertation/thumbnails/award/5.jpg"
-    - part: Advice to Junior Researchers and Students
-      timestamp: "13:55"
-      start: 835
-      end: 923
-      thumbnail: "../images/dissertation/thumbnails/award/6.jpg"
-    - part: "Acknowledgements and Thank You's"
-      timestamp: "15:23"
-      start: 923
-      end: 950
-      thumbnail: "../images/dissertation/thumbnails/award/7.jpg"
-    - part: Q&A
-      timestamp: "15:50"
-      start: 950
-      end: 1071
-      thumbnail: "../images/dissertation/thumbnails/award/8.jpg"

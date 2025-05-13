@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Interactive Scalable Interfaces for Machine Learning Interpretability
+title: "Distinguishability, Symmetry, and Energy Estimation: Quantum Algorithms and Complexity"
 permalink: dissertation/
 redirect_from: defense/
 jsarr:
@@ -8,25 +8,23 @@ jsarr:
 ---
 
 <span class="dissertation-subtitle">
-Data-driven paradigms now solve the world's hardest problems by automatically learning from data. Unfortunately, what is learned is often unknown to both the people who train the models and the people they impact. This has led to a rallying cry for *machine learning interpretability*. But how do we enable interpretability? How do we scale up explanations for modern, complex models? And how can we best communicate them to people?
+This dissertation is a collection of quantum algorithms designed to estimate different quantities. These quantities belong to three different domains: distinguishability, symmetry, and energy. The algorithms are all based on the *variational principle* -- using a parameterized state to guess the solution and training for the optimal parameters. The work also analyses the quantum computational complexity of the various estimation problems, connecting the complexity heirarchy and the different estimation problems.
 <span>
 
-Since machine learning now impacts people's daily lives, we answer these questions taking a *human-centered perspective* by designing and developing interactive interfaces that can enable interpretability at scale and for everyone. This thesis focuses on:
+We now go into detail of the various algorithms in the three different domains.
 
-##### 1. Enabling Machine Learning Interpretability
+##### 1. Distinguishability
 
-User research with practitioners guides the creation of our novel operationalization for interpretability, which helps tool builders design interactive systems for model and prediction explanations. We develop two such visualization systems, <a href="{{ site.url }}/papers/gamut" class="sc">Gamut</a> and <a href="{{ site.url }}/papers/telegam" class="sc">TeleGam</a>, which we deploy at Microsoft Research as a design probe to investigate the emerging practice of interpreting models. 
+<!--User research with practitioners guides the creation of our novel operationalization for interpretability, which helps tool builders design interactive systems for model and prediction explanations. We develop two such visualization systems, <a href="{{ site.url }}/papers/gamut" class="sc">Gamut</a> and <a href="{{ site.url }}/papers/telegam" class="sc">TeleGam</a>, which we deploy at Microsoft Research as a design probe to investigate the emerging practice of interpreting models. -->
 
-##### 2. Scaling Deep Learning Interpretability
+##### 2. Symmetry
 
-Our first-of-its-kind <a href="{{ site.url }}/papers/deepvis" class="sc">Interrogative Survey</a> reveals critical yet understudied areas of deep learning interpretability research, such as the lack of higher-level explanations for neural networks. Through <a href="{{ site.url }}/papers/summit" class="sc">Summit</a>, an interactive visualization system, we present the first scalable graph representation that summarizes and visualizes what features deep learning models learn and how those features interact to make predictions (e.g., InceptionNet trained on ImageNet with 1.2M+ images).
+<!--Our first-of-its-kind <a href="{{ site.url }}/papers/deepvis" class="sc">Interrogative Survey</a> reveals critical yet understudied areas of deep learning interpretability research, such as the lack of higher-level explanations for neural networks. Through <a href="{{ site.url }}/papers/summit" class="sc">Summit</a>, an interactive visualization system, we present the first scalable graph representation that summarizes and visualizes what features deep learning models learn and how those features interact to make predictions (e.g., InceptionNet trained on ImageNet with 1.2M+ images).-->
 
-##### 3. Communicating Interpretability with Interactive Articles
+##### 3. Energy
 
-We use <a href="{{ site.url }}/papers/interactive-articles" class="sc">Interactive Articles</a>, a new medium on the web, to teach people about machine learning's capabilities and limitations, while developing a new interactive publishing initiative called the <a href="{{ site.url }}/papers/parametric" class="sc">Parametric Press</a>. From our success publishing interactive content at scale, we generalize and detail the affordances of interactive articles by connecting techniques used in practice and the theories and empirical evaluations put forth by diverse disciplines of research.
-
-<!-- <img src="../images/iii.png" class="iii">
-<figcaption>An overview of my interdisciplinary research where I design and develop interactive interfaces to enable machine learning interpretability at scale and for everyone.</figcaption> -->
+<!--We use <a href="{{ site.url }}/papers/interactive-articles" class="sc">Interactive Articles</a>, a new medium on the web, to teach people about machine learning's capabilities and limitations, while developing a new interactive publishing initiative called the <a href="{{ site.url }}/papers/parametric" class="sc">Parametric Press</a>. From our success publishing interactive content at scale, we generalize and detail the affordances of interactive articles by connecting techniques used in practice and the theories and empirical evaluations put forth by diverse disciplines of research.
+-->
 
 ***
 
@@ -36,38 +34,20 @@ This thesis contributes to *information visualization*, *machine learning*, and 
     {% include dissertation/document.html details=true location=page %}
 </div>
 
-## SIGCHI Dissertation Award Talk
-
-After motivating and summarizing my dissertation, I reflect back upon my work and highlight bits of my research experience thus far, including the challenges and opportunities of pursuing interdisciplinary work within machine learning and human-computer interaction.
-<!-- ACM link? -->
-
-**Date:** Monday, May 2, 2022  
-**Time:** 4:45pm - 5:00pm CT  
-**Location:** New Orelans
-
-{% for talk in site.data.dissertation.talks %}
-{% if talk.key == "award" %}
-{% include dissertation/talk.html talk=talk %}
-{% endif %}
-{% endfor %}
-
 ## Thesis Defense
 
-**Fred Hohman**  
-College of Computing  
-Georgia Institute of Technology
+**Soorya Rethinasamy**  
+Applied and Engineering Physics      
+Cornell University
 
-**Date:** Monday, October 5, 2020  
-**Time:** 1:30pm - 2:30pm EST  
-**Location:** remote via Zoom (email for invite)
+**Date:** Monday, May 28, 2025   
+**Time:** 8:00am - 9:30am EST  
+**Location:** Rhodes Hall   
 
 **Committee**  
-Duen Horng (Polo) Chau - *Advisor, Georgia Tech, CSE*  
-Alex Endert - *Co-advisor, Georgia Tech, IC*  
-Chao Zhang - *Georgia Tech, CSE*  
-Nathan Hodas - *Pacific Northwest National Lab*  
-Scott Davidoff - *NASA Jet Propulsion Lab*  
-Steven Drucker - *Microsoft Research*
+Mark M. Wilde - *Advisor, Cornell University*  
+Karan Mehta - *Committee Member, Cornell University*  
+Valla Fatemi - *Committee Member, Cornell University*  
 
 {% for talk in site.data.dissertation.talks %}
 {% if talk.key == "defense" %}
@@ -76,22 +56,18 @@ Steven Drucker - *Microsoft Research*
 {% endfor %}
 
 <!-- **Materials**   -->
-* [Research Statement][statement]  
-* [Slides, low quality][talk-low-db] (50MB)  
-* [Slides, high quality][talk-high-db] (200MB)  
-* [Slide export animations + demo videos][talk-export]
+* [Slides][talk-high-db]
 
-**Bio (from October 2020)**  
-Fred Hohman is a PhD candidate at Georgia Tech's College of Computing.
-His research focuses on enabling machine learning interpretability at scale and for everyone, by designing and developing interactive interfaces to help people confidently understand data-driven systems. Besides building tools, he also creates data visualizations and writes interactive articles to simply communicate complex ideas.
+**Bio (from May 2025)**  
+Soorya Rethinasamy is a fifth-year graduate student in the Applied and Engineering Physics Department at Cornell University. He received his Bachelor of Engineering (Hons.) in Computer Science and his Master of Science (Hons.) in Physics from the Birla Institute of Technology and Science, Pilani. He began his Ph.D. at Louisiana State University in 2021 and transferred to Cornell University in 2022.
 
-He has collaborated with designers, developers, and scientists at Apple, Microsoft Research, NASA JPL Human Interfaces, and Pacific Northwest National Lab. He won a NASA PhD Space Technology Research Fellowship, a Microsoft AI for Earth Award for using AI to improve sustainability, and the President's Fellowship for top incoming PhD students. He has also won an ACM CHI 2019 Best Paper award; a KDD 2018 Audience Appreciation Award, Runner-up; an IEEE VIS VISxAI Best Paper, Honorable Mention; and a SIGMOD 2017 Best Demo, Honorable Mention. His work has appeared in popular press, such as the Stack Overflow Blog, Fast Company, and Data Stories. He co-organizes the Workshop on Visualization for AI Explainability (VISxAI) at IEEE VIS. He double majored in mathematics and physics.
+During his tenure, he has authored several publications and presented his work at multiple conferences. He has also mentored several high school and undergraduate students in quantum computing, resulting in collaborative research publications. His research field is the design and analysis of quantum algorithms. He attended the IBM Summer School on quantum error correction and interned at the Global Technology Applied Research Team at JP Morgan Chase.
 
 [talk-low]: {{ site.url }}/talk-low-quality.pdf
 [talk-high]: {{ site.url }}/talk-high-quality.pdf
 [talk-export]: https://youtu.be/k8fzkxxxyr8
 [talk-low-db]: https://www.dropbox.com/s/b4aqsp6ota3zani/defense-low-quality.pdf?dl=0
-[talk-high-db]: https://www.dropbox.com/s/97q8gcinczfnfvu/defense-high-quality.pdf?dl=0
+[talk-high-db]: https://drive.google.com/file/d/1AtlI46LJprmIfG6rpV6iao_qYlMlub3A/view?usp=sharing
 [cv]: https://fredhohman.com/cv
 [cv-pdf]: https://fredhohman.com/cv.pdf
 [statement]: {{ site.url }}/research-statement.pdf

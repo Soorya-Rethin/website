@@ -1,7 +1,7 @@
 ---
 layout: post
 title: GT CSE 10 Year Anniversary
-categories: blog
+categories: fred_blog
 permalink: blog/cse-10-year-anniversary
 ---
 

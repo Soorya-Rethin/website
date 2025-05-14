@@ -7,9 +7,11 @@ permalink: everything-else/
 ## [Projects][projects]
 Things I do, including research, academic course projects, and miscellaneous interests.
 
-<!--
+
 ## [Blog][blog]
 Things I think about, read, and write.
+
+<!--
 
 ## [Stuff I Use][stuff-i-use]
 Inspired by projects like [The Setup][the-setup], here is the stuff I use.

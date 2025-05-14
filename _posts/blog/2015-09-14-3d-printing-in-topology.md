@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 3D Printing in Topology
-categories: blog
+categories: fred_blog
 permalink: blog/3d-printing-in-topology
 ---
 

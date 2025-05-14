@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Journaling in Graduate School
-categories: blog
+categories: fred_blog
 permalink: blog/journaling-in-graduate-school
 ---
 

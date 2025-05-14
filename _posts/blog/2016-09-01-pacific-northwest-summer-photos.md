@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Pacific Northwest Summer Photos
-categories: blog
+categories: fred_blog
 permalink: blog/pacific-northwest-summer-photos
 ---
 

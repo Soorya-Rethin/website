@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Georgia Tech Gigabit Internet
-categories: blog
+categories: fred_blog
 permalink: blog/georgia-tech-gigabit-internet
 ---
 

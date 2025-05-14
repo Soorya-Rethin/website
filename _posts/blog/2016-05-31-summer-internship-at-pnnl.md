@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Summer Internship at PNNL
-categories: blog
+categories: fred_blog
 permalink: blog/summer-internship-at-pnnl
 ---
 

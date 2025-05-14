@@ -15,20 +15,17 @@ We now go into detail of the various algorithms in the three different domains.
 
 ##### 1. Distinguishability
 
-<!--User research with practitioners guides the creation of our novel operationalization for interpretability, which helps tool builders design interactive systems for model and prediction explanations. We develop two such visualization systems, <a href="{{ site.url }}/papers/gamut" class="sc">Gamut</a> and <a href="{{ site.url }}/papers/telegam" class="sc">TeleGam</a>, which we deploy at Microsoft Research as a design probe to investigate the emerging practice of interpreting models. -->
+Distinguishability measures form the basis of all information processing tasks. The ability to distinguish between different outcomes is fundamental. In this chapter, we put forth several quantum algorithms to estimate various state and channel distinguishability measures, like the fidelity, trace distance, diamond distance, among others. The results of this section are based on the paper <a href="{{ site.url }}/papers/distinguish" class="sc">Distinguish</a>.
 
 ##### 2. Symmetry
 
-<!--Our first-of-its-kind <a href="{{ site.url }}/papers/deepvis" class="sc">Interrogative Survey</a> reveals critical yet understudied areas of deep learning interpretability research, such as the lack of higher-level explanations for neural networks. Through <a href="{{ site.url }}/papers/summit" class="sc">Summit</a>, an interactive visualization system, we present the first scalable graph representation that summarizes and visualizes what features deep learning models learn and how those features interact to make predictions (e.g., InceptionNet trained on ImageNet with 1.2M+ images).-->
+Symmetry plays a fundamental rule in physics and quantum information science. It dictates allowed transitions, resourceful states, and can be used to simplify the understanding complex systems. In this work, we put forth four notions of symmetry and show results for a wide range of groups. We also provide operation interpretations for quantities known as *maximum symmetric fidelities* in terms of the proposed quantum algorithms. Lastly, we also connect the symmetry-testing problems to the quantum computational complexity heirarchy. The results of this section are based on the papers <a href="{{ site.url }}/papers/test-symmetry" class="sc">Testing Symmetry</a> and <a href="{{ site.url }}/papers/complex-symmetry" class="sc">Symmetry Complexity</a>.
 
 ##### 3. Energy
 
-<!--We use <a href="{{ site.url }}/papers/interactive-articles" class="sc">Interactive Articles</a>, a new medium on the web, to teach people about machine learning's capabilities and limitations, while developing a new interactive publishing initiative called the <a href="{{ site.url }}/papers/parametric" class="sc">Parametric Press</a>. From our success publishing interactive content at scale, we generalize and detail the affordances of interactive articles by connecting techniques used in practice and the theories and empirical evaluations put forth by diverse disciplines of research.
--->
+The atomic nucleus is a quantum many-body system made of nucleons that are subject to residual strong forces that have no analytical solution. For an A-particle system, the nuclear problem needs to be solved numerically in the infinite- dimensional Hilbert space of A particles with Hamiltonians that admit state-of-the-art nucleon-nucleon (NN) forces, often three-nucleon (3N), and even four-nucleon (4N) forces. This leads to the so-called scale explosion problem in nuclear structure calculations, i.e., the explosive growth in computational resource demands with increasing number of particles and size of the spaces in which they reside. In this paper, we provide a generalized, extensible, and strong mathemati- cal formulation of three mappings to qubits: one-hot, binary, and Gray encodings, explore their relative advantages, and illustrate these for simulations with the above-mentioned potentials. The results of this section are based on the paper <a href="{{ site.url }}/papers/nuclear" class="sc">Nuclear Quantum Computing</a>.
 
 ***
-
-This thesis contributes to *information visualization*, *machine learning*, and more importantly *their intersection*, including open-source interactive interfaces, scalable algorithms, and new, accessible communication paradigms. Our work is making significant impact in industry and society: our visualizations have been deployed and demoed at Microsoft and built into widely-used interpretability toolkits, our interactive articles have been read by 250,000+ people, and our interpretability research is supported by NASA.
 
 <div class="l-middle">
     {% include dissertation/document.html details=true location=page %}

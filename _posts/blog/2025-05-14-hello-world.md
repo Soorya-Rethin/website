@@ -12,7 +12,7 @@ Welcome to `sooryarethin.xyz`, my corner of the world. My hope is for this websi
 This blog is probably going to have pages that are retroactively filled in. I wish I had build this up from a younger age, but here we go.
 
 ## What's going on?
-I just graduated from Cornell University, receiving my Ph.D in Applied and Engineering Physics. My [thesis][dissertation] was titled "Distinguishability, Symmetry, and Energy Estimation".
+I just graduated from Cornell University in May 2025, receiving my Ph.D in Applied and Engineering Physics. My [thesis][dissertation] was titled "Distinguishability, Symmetry, and Energy Estimation".
 
 I will be joining the Global Technology Applied Research team at JPMorgan Chase starting in July. My wife and I will be moving to NYC, and I'm excited to finally live in a *major* city.
 

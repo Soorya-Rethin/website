@@ -1,19 +1,19 @@
-- degree: "Ph.D. in Applied & Engineering Physics"
+- degree: "Doctor of Philosophy in Applied & Engineering Physics"
   institution: Cornell Univesity
   location: "Ithaca, NY"
   advisor: Mark M. Wilde
-  years: "Jan. 2020 — "
+  years: "Jan. 2020 — May 2025"
   institution-url: https://www.cornell.edu
   description: 
     - "Transferred from Louisiana State University in Jun. 2021. Overall GPA: 4.32/4.00"
 
-- degree: "M.S. in Applied and Engineering Physics"
+- degree: "Master of Science in Applied and Engineering Physics"
   institution: Cornell University
   location: "Ithaca, NY"
   years: "Jun. 2021 - May 2024"
   institution-url: https://www.cornell.edu
 
-- degree: "M. Sc. (Hons.) in Physics"
+- degree: "Master of Science (Honors) in Physics"
   years: "Aug. 2015 - May 2020"
   institution: Birla Institute of Technology and Science, Pilani
   location: "Pilani, India"
@@ -21,7 +21,7 @@
     - "Overall GPA: 9.52/10.0, Best Outgoing Student in Physics Award"
   institution-url: https://www.bits-pilani.ac.in
 
-- degree: "B. E. (Hons.) in Computer Science"
+- degree: "Bachelor of Engineering (Honors) in Computer Science"
   years: "Aug. 2015 - May 2020"
   institution: Birla Institute of Technology and Science, Pilani
   location: "Pilani, India"

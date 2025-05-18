@@ -62,8 +62,6 @@ I design and study quantum algorithms. I am pursuing my Ph.D. from Cornell Unive
 {% endfor %}
 {:/}
 
-<!--
-
 ## Industry Research Experience
 
 {% for experience in site.data.experiences %}
@@ -79,6 +77,8 @@ I design and study quantum algorithms. I am pursuing my Ph.D. from Cornell Unive
 {% include cv/experience.html experience=experience %}
 {% endif %}
 {% endfor %}
+
+<!--
 
 ## Honors and Awards
 

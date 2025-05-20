@@ -46,3 +46,65 @@
   description: "Worked on my Masters thesis on quantum information theory."
   institution-url: https://www.lsu.edu
   type: academic
+
+- institution: Birla Institute of Technology and Science, Pilani
+  location: "Pilani, India"
+  position: Student Researcher
+  group: Physics Department
+  year: "Aug. 2018 —"
+  year-extra: "Dec. 2018"
+  mentors:
+    - Tapomoy Guha Sarkar
+  advisor: false
+  description: "Semester long project on Early Universe Non-Linear Structure Formation"
+  institution-url: https://www.bits-pilani.ac.in
+  type: academic
+
+- institution: Harish Chandra Research Institute
+  location: "Allahabad, India"
+  position: Summer Research Fellow
+  group: Physics Department
+  year: "May 2018 —"
+  year-extra: "Jul. 2018"
+  mentors:
+    - Aditi Sen De
+  advisor: false
+  description: "Summer research fellow as part of the SRFP Fellowship program"
+  institution-url: https://www.hri.res.in
+  type: academic
+
+- institution: Indira Gandhi Centre for Atomic Research
+  location: "Kalpakkam, India"
+  position: Research Intern
+  group: Radioactivity Department
+  year: "May 2017 —"
+  year-extra: "Jul. 2017"
+  mentors:
+    - Dr. S. Chandrasekaran
+  advisor: false
+  description: "PS-1 summer project as part of the BITS Pilani degree program"
+  institution-url: https://www.igcar.gov.in
+  type: academic
+
+- institution: VMWare, Inc.
+  location: "Bangalore, India"
+  position: Software Development Engineer
+  group: 
+  year: "Jun. 2020 —"
+  year-extra: "Nov. 2020"
+  mentors:
+    - Manoj Krishnan
+  advisor: false
+  description: "Worked on integrating Kubernetes with native vSphere to deploy virtual machines and containers"
+  institution-url: https://www.vmware.com
+  type: work
+
+- institution: DE Shaw
+  location: "Hyderabad, India"
+  position: Intern
+  group: 
+  year: "May 2019 —"
+  year-extra: "Jul. 2019"
+  description: "Created an email parser using regular expressions and dependency parsing to extract relevant information from sell-side emails and programmatically connected it to financial models"
+  institution-url: https://www.deshaw.com
+  type: work

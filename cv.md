@@ -78,6 +78,14 @@ I design and study quantum algorithms. I am pursuing my Ph.D. from Cornell Unive
 {% endif %}
 {% endfor %}
 
+## Work Experience
+
+{% for experience in site.data.experiences %}
+{% if experience.type == 'work' %}
+{% include cv/experience.html experience=experience %}
+{% endif %}
+{% endfor %}
+
 <!--
 
 ## Honors and Awards

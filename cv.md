@@ -86,15 +86,11 @@ I design and study quantum algorithms. I am pursuing my Ph.D. from Cornell Unive
 {% endif %}
 {% endfor %}
 
-<!--
-
 ## Honors and Awards
 
 {% for award in site.data.awards %}
 {% include cv/award.html award=award %}
 {% endfor %}
-
--->
 
 ## Publications
 
@@ -208,14 +204,6 @@ I design and study quantum algorithms. I am pursuing my Ph.D. from Cornell Unive
 
 {% for fund in site.data.funding %}
 {% include cv/fund.html fund=fund %}
-{% endfor %}
-
-## Interactive Articles
-
-{% for article in site.data.articles %}
-{% unless article.feature-only %}
-{% include cv/article.html article=article %}
-{% endunless %}
 {% endfor %}
 
 ## Technology Skills

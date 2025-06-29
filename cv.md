@@ -192,6 +192,9 @@ I design and study quantum algorithms. I am pursuing my Ph.D. from Cornell Unive
 {% include cv/teaching.html teach=teach %}
 {% endfor %}
 
+-->
+
+
 ## Mentoring
 
 {::nomarkdown}
@@ -199,6 +202,8 @@ I design and study quantum algorithms. I am pursuing my Ph.D. from Cornell Unive
 {% include cv/mentee.html mentee=mentee %}
 {% endfor %}
 {:/}
+
+<!--
 
 ## Grants and Funding
 
@@ -251,7 +256,6 @@ I design and study quantum algorithms. I am pursuing my Ph.D. from Cornell Unive
 {% include cv/reference.html reference=reference %}
 {% endfor %}
 
-<!-- 
 ## Contact
 
 Fred Hohman  
@@ -268,8 +272,8 @@ Solar System
 Milky Way  
 Local Group  
 Universe  
-</span> -->
-
+</span> 
+-->
 
 [cv]: {{ site.url }}/cv.pdf "My CV."
 

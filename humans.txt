@@ -1,7 +1,6 @@
 /* TEAM */
-	Author: Fred Hohman
-	Twitter: @fredhohman
-	Location: Seattle, United States
+	Author: Soorya Rethinasamy
+	Location: NYC, United States
 
 /* SITE */
     Language: English

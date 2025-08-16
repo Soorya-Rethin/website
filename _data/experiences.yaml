@@ -1,5 +1,5 @@
 - institution: JPMorgan Chase
-  location: "New York City, NA"
+  location: "New York City, NY"
   position: Summer Associate
   group: "Global Technology Applied Research Team"
   year: "Summer 2024"
@@ -107,4 +107,12 @@
   year-extra: "Jul. 2019"
   description: "Created an email parser using regular expressions and dependency parsing to extract relevant information from sell-side emails and programmatically connected it to financial models"
   institution-url: https://www.deshaw.com
+  type: work
+
+- institution: JPMorgan Chase
+  location: "New York City, NY"
+  position: Applied Research Senior Associate
+  group: Quantum Engineering Team 
+  year: "Jul. 2025 —"
+  description: "Part of the Quantum Engineering Team with Dr. Ruslan Shaydulin."
   type: work

@@ -9,7 +9,7 @@ title: Home
 			<img id="intro-image" src="/images/portrait.jpg"></div>
 		<div id="intro-title-text-wrapper">
 			<h1 id="intro-title">Soorya Rethinasamy</h1>
-			<div id="intro-subtitle">Physics Ph.D. at Cornell University</div>
+			<div id="intro-subtitle">Applied Research Senior Associate at JPMorgan Chase</div>
 			<div id="intro-title-socials">
 				{% for link in site.data.social-links %}
 					{% if link.on-homepage == true %}

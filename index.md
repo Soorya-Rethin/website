@@ -26,7 +26,11 @@ title: Home
 		<a href="{{ site.url }}/everything-else"><div><i class="fa fa-list-ul icon icon-right-space"></i>Everything Else</div></a>
 	</div>
 	<div>
-		I design and study quantum algorithms. I am pursuing my Ph.D. from Cornell University, working with <a href="https://www.markwilde.com">Dr. Mark M. Wilde</a>. I have worked on several broad areas, including symmetries, distinguishability measures, variational algorithms, among others. 
+		I design and study quantum algorithms, and hunt for quantum advantage. I am an applied research senior associate at the Global Technologies and Applied Research team at JPMorgan Chase. <br><br>
+
+		I graduated from Cornell University with a Ph.D. in Applied and Engineering Physics under <a href="https://www.markwilde.com">Dr. Mark M. Wilde</a>. I have worked on several broad areas, including symmetries, distinguishability measures, variational algorithms, among others.<br><br>
+
+		I am currently interested in certified randomness and its applications.
 	</div>
 </div>
 

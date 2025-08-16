@@ -6,9 +6,9 @@ jsarr:
 - js/scripts.js
 ---
 
-<h1 id="cv-title"><a href="{{ site.url }}">Soorya Rethinasamy</a></h1>
+<h1 id="cv-title"><a href="{{ site.url }}">Soorya Rethinasamy, Ph.D</a></h1>
 
-<p id="cv-subtitle"><i>Physics Ph.D. at Cornell University </i></p>
+<p id="cv-subtitle"><i>Applied Research Senior Associate at JPMorgan Chase</i></p>
 
 <!-- <div id="cv-toc">
 <ul class="cv-description">
@@ -30,7 +30,11 @@ jsarr:
 </div> -->
 
 <div>
-I design and study quantum algorithms. I am pursuing my Ph.D. from Cornell University, working with <a href="https://www.markwilde.com">Dr. Mark M. Wilde</a>. I have worked on several broad areas, including symmetries, distinguishability measures, variational algorithms, among others.
+I design and study quantum algorithms, and hunt for quantum advantage. I am an applied research senior associate at the Global Technologies and Applied Research team at JPMorgan Chase. 
+
+I graduated from Cornell University with a Ph.D. in Applied and Engineering Physics. My advisor was <a href="https://www.markwilde.com">Dr. Mark M. Wilde</a>. I have worked on several broad areas, including symmetries, distinguishability measures, variational algorithms, among others.
+
+I am currently interested in certified randomness and its applications.
 </div>
 
 <div class="cv-spacer"></div>

@@ -11,7 +11,9 @@ I've been trying to get back into reading more consistently, and this book reall
 
 The book was really eye opening, and almost painful in some sense. Matthew spoke about a wide range of ideas on how poverty is created, how it persists, how we benefit from it, what it would cost to reduce the amount of it, and what we can do about it now. And the numbers involved were shocking. 
 
-A key part of the book was on the tax burden, and on how if we *only* collected the taxes owed, we could almost close the gap. It means that we could take everyone that is below the poverty line and lift them above it. The IRS chief told Congress that we lose $1T a year on tax evasion, and the cost to end poverty is in the $100B range.
+A key part of the book was on the tax burden, and on how if we *only* collected the taxes owed, we could almost close the gap. It means that we could take everyone that is below the poverty line and lift them above it. The IRS chief told Congress that we lose 1T dollars a year on tax evasion, and the cost to end poverty is in the 100B dollars range.
+
+
 
 Another fascinating thing I learnt how the poverty rate, and eviction rate, dramatically fell during the pandemic. *What?* That made absolutely no sense to me, but the bold relief that was passed at the time made it happen. As expected, soon after, the relief was stopped, and poverty levels rose again. 
 
@@ -28,9 +30,4 @@ I don't know if enjoyed is the right word for my reaction to this book. I felt m
 [about]: {{ site.url }}/about
 [projects]: {{ site.url }}/projects
 [blog]: {{ site.url }}/blog
-[other]: {{ site.url }}/other
-[stuff-i-use]: {{ site.url }}/stuff-i-use
-[photos]: {{ site.url }}/photos
-[monthly-music]: {{ site.url }}/monthly-music
 [archive]: {{ site.url }}/archive
-[dissertation]: {{site.url}}/dissertation

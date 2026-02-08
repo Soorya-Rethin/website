@@ -21,9 +21,10 @@ title: Home
 	</div>
 	<!-- <hr class="l-middle home-hr"> -->
 	<div id="everything-else" class="l-middle">
-		<a href="{{ site.url }}/cv"><div><i class="fa fa-portrait icon icon-right-space"></i>CV</div></a>
-		<a href="{{ site.url }}/projects"><div><i class="fa fa-shapes icon icon-right-space"></i>Projects</div></a>
-		<a href="{{ site.url }}/everything-else"><div><i class="fa fa-list-ul icon icon-right-space"></i>Everything Else</div></a>
+	<a href="{{ site.url }}/cv"><div><i class="fa fa-portrait icon icon-right-space"></i>CV</div></a>
+	<a href="{{ site.url }}/projects"><div><i class="fa fa-shapes icon icon-right-space"></i>Projects</div></a>
+	<a href="{{ site.url }}/blog"><div><i class="fa fa-pen-nib icon icon-right-space"></i>Blog</div></a>
+	<a href="{{ site.url }}/everything-else"><div><i class="fa fa-list-ul icon icon-right-space"></i>Everything Else</div></a>
 	</div>
 	<div>
 		I design and study quantum algorithms, and hunt for quantum advantage. I am an applied research senior associate at the Global Technologies and Applied Research team at JPMorgan Chase. <br><br>

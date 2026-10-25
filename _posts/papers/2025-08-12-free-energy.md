@@ -18,7 +18,7 @@ venue: arXiv
 year: 2025
 url: /papers/free-energy
 pdf: https://arxiv.org/abs/2508.09103
-doi: https://journals.aps.org/pra/abstract/10.1103/4ds8-1jt8
+doi: 10.1103/4ds8-1jt8
 type: journal
 figure: /images/papers/free-energy.png
 feature-title: Constrained Free Energy Minimization

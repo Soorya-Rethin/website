@@ -18,8 +18,8 @@ venue: arXiv
 year: 2025
 url: /papers/free-energy
 pdf: https://arxiv.org/abs/2508.09103
-doi: https://doi.org/10.48550/arXiv.2508.09103
-type: preprint
+doi: https://journals.aps.org/pra/abstract/10.1103/4ds8-1jt8
+type: journal
 figure: /images/papers/free-energy.png
 feature-title: Constrained Free Energy Minimization
 feature-description: Using free-energy minimization to design thermal states and stabilizer thermodynamic systems
@@ -28,16 +28,22 @@ featured: true
 feature-order: 13
 bibtex: |-
 
-    @misc{rethinasamy2024neutronnucleusdynamicssimulationsquantum,
-      title={Neutron-nucleus dynamics simulations for quantum computers}, 
-      author={Soorya Rethinasamy and Ethan Guo and Alexander Wei and Mark M. Wilde and Kristina D. Launey},
-      year={2024},
-      eprint={2402.14680},
-      archivePrefix={arXiv},
-      primaryClass={quant-ph},
-      url={https://arxiv.org/abs/2402.14680}, 
+    @article{4ds8-1jt8,
+      title = {Constrained free energy minimization for the design of thermal states and stabilizer thermodynamic systems},
+      author = {Minervini, Michele and Chin, Madison and Kupperman, Jacob and Liu, Nana and Luo, Ivy and Ly, Meghan and Rethinasamy, Soorya and Wang, Kathie and Wilde, Mark M.},
+      journal = {Phys. Rev. A},
+      volume = {113},
+      issue = {4},
+      pages = {042407},
+      numpages = {32},
+      year = {2026},
+      month = {Apr},
+      publisher = {American Physical Society},
+      doi = {10.1103/4ds8-1jt8},
+      url = {https://link.aps.org/doi/10.1103/4ds8-1jt8}
     }
+
 
 ---
 
-With a view toward addressing the explosive growth in the computational demands of nuclear structure and reactions modeling, we develop a novel quantum algorithm for neutron-nucleus simulations with general potentials, which provides acceptable bound-state energies even in the presence of noise, through the noise-resilient training method. In particular, the algorithm can now solve for any band-diagonal to full Hamiltonian matrices, as needed to accommodate a general central potential. This includes exponential Gaussian-like potentials and ab initio inter-cluster potentials (optical potentials). The approach can also accommodate the complete form of the chiral effective-field-theory nucleon-nucleon potentials used in ab initio nuclear calculations. We make this potential available for three different qubit encodings, including the one-hot (OHE), binary (BE), and Gray encodings (GE), and we provide a comprehensive analysis of the number of Pauli terms and commuting sets involved. We find that the GE allows for an efficient scaling of the model-space size \\( N\\) (or number of basis states used) and is more resource efficient not only for tridiagonal Hamiltonians, but also for band-diagonal Hamiltonians having bandwidth up to \\( N\\). We introduce a new commutativity scheme called distance-grouped commutativity (DGC) and compare its performance with the well-known qubit-commutativity (QC) scheme. We lay out the explicit grouping of Pauli strings and the diagonalizing unitary under the DGC scheme, and we find that it outperforms the QC scheme, at the cost of a more complex diagonalizing unitary. Lastly, we provide first solutions of the neutron-alpha dynamics from quantum simulations suitable for NISQ processors, using an optical potential rooted in first principles, and a study of the bound-state physics in neutron-Carbon systems, along with a comparison of the efficacy of the OHE and GE.
+A quantum thermodynamic system is described by a Hamiltonian and a list of conserved, noncommuting charges, and a fundamental goal is to determine the minimum energy of the system subject to constraints on the charges. Recently, Liu et al. [arXiv:2505.04514] proposed first- and second-order classical and hybrid quantum-classical algorithms for solving a dual chemical potential maximization problem, and they proved that these algorithms converge to global optima by means of gradient-ascent approaches. In this paper, we benchmark these algorithms on several problems of interest in thermodynamics, including one- and two-dimensional quantum Heisenberg models with nearest- and next-nearest-neighbor interactions and with the charges set to the total 𝑥, 𝑦, and 𝑧 magnetizations. We also offer an alternative compelling interpretation of these algorithms as methods for designing ground and thermal states of controllable Hamiltonians, with potential applications in molecular and material design. Furthermore, we introduce stabilizer thermodynamic systems as thermodynamic systems based on stabilizer codes, with the Hamiltonian constructed from a given code's stabilizer operators and the charges constructed from the code's logical operators. We benchmark the aforementioned algorithms on several examples of stabilizer thermodynamic systems, including those constructed from the one-to-three-qubit repetition code, the perfect one-to-five-qubit code, and the two-to-four-qubit error-detecting code. Finally, we observe that the aforementioned hybrid quantum-classical algorithms, when applied to stabilizer thermodynamic systems, can serve as alternative methods for encoding quantum information into stabilizer codes at a fixed temperature, and we provide an effective method for warm-starting these encoding algorithms whenever a single qubit is encoded into multiple physical qubits.

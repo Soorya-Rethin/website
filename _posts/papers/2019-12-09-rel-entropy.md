@@ -19,7 +19,7 @@ figure: /images/papers/rel-entropy.png
 feature-title: Relative Entropy and Catalytic Relative Majorization
 feature-description: Interconversion of probability distribution pairs with catalysis.
 image: /images/featured/rel-entropy.png
-featured: true
+featured: False
 feature-order: 2
 bibtex: |-
 
